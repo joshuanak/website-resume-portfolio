@@ -1,0 +1,23 @@
+{
+  "name": "nathanwa/328/PizzaPlanet",
+  "authors": [
+    {
+      "name": "Nathan Waters",
+      "email": "waters.nathan@student.greenriver.edu"
+    },
+    {
+      "name": "Sam Grigorenko",
+      "email": "grigorenko.sam@student.greenriver.edu"
+    },
+    {
+      "name": "Joshua Nakatani",
+      "email": "nakatani.joshua@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["classes/", "model/", "controllers/"]
+  }
+}

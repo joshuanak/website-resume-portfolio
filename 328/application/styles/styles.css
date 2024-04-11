@@ -1,0 +1,111 @@
+.navbar {
+    background-color: white;
+}
+
+.navbar-header {
+    padding-left: 0;
+}
+
+.navbar-btn {
+    margin-right: 2rem;
+}
+
+.col-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-body {
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: #f5f5f5;
+}
+
+.info-body-footer {
+    padding: 0 1rem 2rem 1rem;
+    background-color: #f5f5f5;
+}
+
+
+.info-text {
+    font-size: 0.9rem;
+}
+
+.info-btn-container {
+    margin-top: auto;
+}
+
+.next-btn {
+    width: 100%;
+}
+
+.info-quotes {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.info-row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info-top-row {
+    margin-top: 0;
+}
+
+.exp-btn-container {
+    margin-top: 1rem;
+}
+
+.form-id {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.biography-label {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.mailing-lists {
+    margin-bottom: 1rem;
+}
+
+.privacy-policy-info {
+    border-radius: 1rem;
+    background-color: darkgrey;
+}
+
+.privacy-policy-info p {
+    position: relative;
+    top: 40%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.summary-btn-container {
+    margin-top: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #00a600;
+}
+
+.btn a {
+    color: white;
+}
+
+.words {
+    color: red;
+}

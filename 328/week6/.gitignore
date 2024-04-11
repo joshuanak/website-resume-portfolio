@@ -1,0 +1,8 @@
+# .gitignore contains files and
+# folders that should be excluded
+# from version control
+
+vendor/
+tmp/
+
+composer.lock

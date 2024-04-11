@@ -1,0 +1,33 @@
+<include href="views/includes/header.html"></include>
+<body>
+<include href="views/includes/nav.html"></include>
+<section class="container">
+    <form action="#" method="post">
+        <div class="mb-3">
+            <label for="newEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="newEmail" aria-describedby="emailHelp" name="newEmail">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="newPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="newPassword" name="newPassword">
+        </div>
+        <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="firstName">
+        </div>
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName">
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary form-control">Creat New User!</button>
+            </div>
+        </div>
+    </form>
+</section>
+
+<include href="views/includes/footer.html"></include>
+</body>
